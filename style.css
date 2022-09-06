@@ -1,0 +1,29 @@
+body{
+    background: black;
+}
+
+.menu{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.inicio, .servicios, .blog, .contacto{
+    display: inline-block;
+    margin-right: 4%;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    padding: 20px 35px;
+}
+
+.inicio:hover, .servicios:hover, .blog:hover, .contacto:hover{
+    background: linear-gradient(black, black) padding-box, linear-gradient(90deg, #00C17C, #8200D1, #ED0055) border-box;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-right: 3%;
+    transition: .2s;
+}
